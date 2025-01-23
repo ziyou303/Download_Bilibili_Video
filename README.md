@@ -1,6 +1,7 @@
 # Download_Bilibili_Video
 用于下载b站的视频
 
+# 请在
 
 # 简介
 本python脚本用于下载B站上的视频，默认清晰度是最高的
@@ -19,12 +20,15 @@
   · requests<br>
     用于网页访问<br>
   如果您没有安装，可以运行以下命令进行安装(前提是已经安装好Python)<br>
-  · 安装moviepy<br>
-    pip install moviepy<br>
-    清华源:pip install -i https://pypi.tuna.tsinghua.edu.cn/simple moviepy<br>
-  · 安装requests<br>
-    pip install requests<br>
-    清华源:pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests<br>
+  1.手动安装
+    · 安装moviepy<br>
+      pip install moviepy<br>
+      清华源:pip install -i https://pypi.tuna.tsinghua.edu.cn/simple moviepy<br>
+    · 安装requests<br>
+      pip install requests<br>
+      清华源:pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests<br>
+  2.脚本安装
+    · 运行目录下的“安装依赖项.bat”脚本
 3.运行<br>
   · 运行code目录下的main.py<br>
   · Win + R打开'运行框',输入'cmd'回车,输入python + main.py文件所在路径<br>
