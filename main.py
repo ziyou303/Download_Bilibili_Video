@@ -9,7 +9,7 @@ from moviepy.editor import VideoFileClip, AudioFileClip
 url = input('请输入B站视频网页的网址:')
     # 请求头
 headers = {
-    
+    'cookie' : 'buvid3=6F94F4E6-4132-3C3E-DF09-352F2D9D8C8135015infoc; b_nut=1723015035; _uuid=EC8F3D2A-5159-DA2D-367F-F10122E951CE735889infoc; enable_web_push=DISABLE; buvid4=1D9C2DAD-C2B1-9A10-E222-543C77981DB535636-024080707-XNpG6IqcuzN%2BK0svoZvmP5VgM9AzvdJWbGDwjYg7PNKk4BrfHb%2BH%2Fi0xbzVyNDxK; DedeUserID=3537114517997966; DedeUserID__ckMd5=152243b0f5227deb; header_theme_version=CLOSE; rpdid=0zbfAHVShz|1hbyB62X8|10|3w1SBAVo; hit-dyn-v2=1; CURRENT_BLACKGAP=0; fingerprint=fea1d2fc9676d62d7a7d41badca7a117; buvid_fp_plain=undefined; home_feed_column=5; browser_resolution=1872-956; LIVE_BUVID=AUTO8917231035013411; PVID=2; SESSDATA=4e13f6c6%2C1739111135%2C1041a%2A82CjBsl_9z7oJH7MJCYXivC1GNLOtUfN6JXMjFbwt-eR73vZK5lAU6VS2eUx2-yWttXkgSVnY0UXdhUXE0YXhqRzgwcjVvTFlnU1RPYjREQWJQSmlCdjNLMjVaNmsweXBrTUtHR1BpT2Q2YTNRcnBjVmx0WnlTZDBHODVpOHpqbkROR1MwNURyelBBIIEC; bili_jct=ded256eb5cfa8ba2b37c7adbfad05e11; CURRENT_QUALITY=80; b_lsid=C78E6766_19154F82A7A; bmg_af_switch=1; bmg_src_def_domain=i1.hdslb.com; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjM5NjY2MzYsImlhdCI6MTcyMzcwNzM3NiwicGx0IjotMX0.6ndcYf-eJc1ghTZkclyaiedYkqa1pzBx2GxTvkzPtsc; bili_ticket_expires=1723966576; sid=4mv0hupo; CURRENT_FNVAL=4048; bp_t_offset_3537114517997966=965818624520486912; buvid_fp=6F94F4E6-4132-3C3E-DF09-352F2D9D8C8135015infoc',
     'user-agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0',
     'referer' : '{}'.format(url)
 }
