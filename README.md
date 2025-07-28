@@ -29,7 +29,8 @@
       清华源:pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests<br>
   2.脚本安装
     · 运行目录下的“安装依赖项.bat”脚本
-3.运行<br>
+3.填写你账号的cookie<br>
+4.运行<br>
   · 运行code目录下的main.py<br>
   · Win + R打开'运行框',输入'cmd'回车,输入python + main.py文件所在路径<br>
 
@@ -37,9 +38,6 @@
 运行exe程序不需要安装python，也不需要安装任何库/软件包  
 文件可能会被杀毒软件误报，所以运行时请退出杀毒软件 (文件是没有病毒的) 
 如果你不放心，可以麻烦一点，安装python和依赖包/库，然后运行代码文件
-
-# 如何获取main.exe？
-<a href="https://pan.huang1111.cn/s/NkoqGi1" style="color: blue;">点击这里，可以下载</a>
 
 # 欢迎使用
 有什么问题可以添加作者QQ:3694165816
